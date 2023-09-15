@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countries | via API</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- header -->
+
+    <header class="header">
+      <div class="container">
+        <div class="header-wrapper">
+          <div href="index.html" class="header-logo">Where in the world?</div>
+
+          <button class="header-dark-light">
+            <img src="images/dark-light2.svg" alt="an img" />
+            <p>Dark Mode</p>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- header -->
+
+    <main>
+
+      <!-- hero -->
+
+      <section class="hero">
+        <div class="container">
+          <div class="hero-wrapper">
+            <div class="hero-top">
+              <div class="hero-search">
+                <span><img src="images/search.svg" alt="an img" /></span>
+                <input
+                  class="the-search-input"
+                  type="search"
+                  placeholder="Search for a country…"
+                />
+              </div>
+              <div class="hero-filter">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Filter by Region</option>
+                  <option value="Africa">Africa</option>
+                  <option value="America">America</option>
+                  <option value="Asia">Asia</option>
+                  <option value="Europe">Europe</option>
+                  <option value="Oceania">Oceania</option>
+                </select>
+              </div>
+            </div>
+            <div class="hero-main">
+              
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/getData.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
